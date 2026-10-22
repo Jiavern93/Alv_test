@@ -11223,3 +11223,9 @@ footer a:hover, footer a:active, footer a:focus {
     transform: translateY(-50%) translateX(0);
 }
 
+/* Fix mobile horizontal scrolling */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
